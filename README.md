@@ -1,6 +1,6 @@
 # vite-plugin-webfont-dl extra css issue
 
-This repository demonstrates an issue with the `vite-plugin-webfont-dl` plugin when used in a Vite + React project that also includes extra CSS imports.
+This repository demonstrates an issue with the `vite-plugin-webfont-dl` plugin when used in a Vite + React project that also includes extra CSS imports when vite `minify` is set to `false`.
 
 When the plugin is added and it needs to download webfonts (see [src/css.ts](src/css.ts) for the CSS imports), the build output contains extra css.
 
